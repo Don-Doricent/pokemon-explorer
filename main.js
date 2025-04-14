@@ -61,6 +61,7 @@ generateButton.addEventListener('click', () => {
     <p>Base Experience:  ${data.base_experience}</p>
     <p>Moves:  ${moves}</p>`;
   })
+  
   .catch(error => {
     console.error('Error:', error);
   });
@@ -85,7 +86,7 @@ randomGenerate.addEventListener('click', () => {
     console.log(data);
     pokemonDisplay.innerHTML = `
     <h2>${data.name}</h2>
-    <img src = "${data.sprites.front_default}" alt = "${data.name}">
+    <img src = "${data.sprites.versions["generation-v"]["black-white"].animated.front_default}" alt = "${data.name}">
     <p>HP:  ${data.stats[0].base_stat}</p>
     <p>Type: ${types}</p>
     <p>abilities:  ${abilities}</p>

@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 75vh;
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -12,6 +13,12 @@ h1 {
 
 #searchInput {
     font-family: 'Press Start 2P', cursive;
+    background-color: #3B4CCA;
+}
+
+#searchInput::placeholder{
+    color: #FFCB05;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .controls {
@@ -20,6 +27,7 @@ h1 {
 
 #pokemonDisplay {
     margin: 20px;
+   
 }
 
 button {
