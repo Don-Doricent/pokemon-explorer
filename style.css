@@ -3,6 +3,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    color: #FF0000;
+}
+
+#searchInput {
+    font-family: 'Press Start 2P', cursive;
 }
 
 .controls {
@@ -11,4 +20,21 @@ body {
 
 #pokemonDisplay {
     margin: 20px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #FFCB05;
+    color: #3B4CCA;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 90%;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:hover {
+    background-color: #3B4CCA;
+    color: #FFCB05;
 }
